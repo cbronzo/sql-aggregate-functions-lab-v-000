@@ -10,7 +10,7 @@ end
 
 # def average_student_gpa
 #   SELECT AVG(column_name) FROM table_name;
-# end
+end
 
 # def total_tardies_for_all_students
 #   SELECT SUM(column_name) FROM table_name;
