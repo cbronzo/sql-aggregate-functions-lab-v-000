@@ -9,13 +9,13 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
-  SELECT AVG(column_name) FROM table_name;
+  "SELECT AVG(gpa) FROM students;"
 end
 
 def total_tardies_for_all_students
-  SELECT SUM(column_name) FROM table_name;
+  "SELECT SUM(tardies) FROM students;"
 end
 
 def average_gpa_for_9th_grade
-  SELECT AVG(net_worth) AS average_net_worth FROM cats;
+  "SELECT AVG(gpa) AS average_net_worth FROM cats;"
 end
