@@ -9,6 +9,7 @@ def lowest_student_gpa
 end
 
 def average_student_gpa
+  SELECT AVG(column_name) FROM table_name;
 end
 
 def total_tardies_for_all_students
